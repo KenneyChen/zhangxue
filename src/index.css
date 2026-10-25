@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700;900&family=Noto+Sans+SC:wght@400;500;700&family=Bodoni+Moda:ital,wght@0,700;0,900;1,700&family=DM+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Noto Serif SC', 'Bodoni Moda', serif;
+  --font-numeral: 'Bodoni Moda', 'Noto Serif SC', serif;
+  --font-body: 'Noto Sans SC', system-ui, sans-serif;
+  --font-mono: 'DM Mono', ui-monospace, monospace;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+    background: #05070a;
+    color: #f2efe9;
+    font-family: var(--font-body);
+  }
+  ::selection {
+    background: #ff5a1f;
+    color: #05070a;
+  }
+}

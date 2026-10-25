@@ -1,0 +1,10 @@
+{
+  "description": "A simple test application for trying features and checking that interactions work as expected.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
